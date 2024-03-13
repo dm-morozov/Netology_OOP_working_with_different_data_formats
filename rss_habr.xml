@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" >
+  <channel>
+    <title><![CDATA[Все публикации подряд на Хабре]]></title>
+    <link>https://habr.com/ru/articles/</link>
+    <description><![CDATA[Все публикации подряд на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Fri, 08 Mar 2024 17:35:46 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Смена профессии и мой первый опыт в IT: путешествие в мир фронтенда с Tauri, REST и Fetch API]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798941/</guid>
+      <link>https://habr.com/ru/articles/798941/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798941</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/087/8bb/ca2/0878bbca2fda38d5d014713c2915e218.jpg" /><p>Привет, Хабр! Меня зовут Гармаев Энхэ. В течение длительного времени я работал в сфере розничной торговли, занимая должность менеджера. Это было увлекательное и насыщенное время, но, как говорится, в жизни всегда есть место переменам и новым вызовам. Сегодня я хочу поделиться с вами своим путешествием, решением о смене профессии и первом опыте работы в IT компании.</p><p></p> <a href="https://habr.com/ru/articles/798941/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798941#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 16:01:01 GMT</pubDate>
+      <dc:creator><![CDATA[EnkhedInFront]]></dc:creator>
+      
+      <category><![CDATA[api]]></category><category><![CDATA[fetch api]]></category><category><![CDATA[preact]]></category><category><![CDATA[javascript]]></category><category><![CDATA[software engineering]]></category><category><![CDATA[rest]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Обзор библиотеки FluentValidation. Часть 2. Коллекции]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798933/</guid>
+      <link>https://habr.com/ru/articles/798933/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798933</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/3b0/52e/453/3b052e453d05bdd0e51a021b7a4091af.png" /><p>Способы описания правил валидаций для элементов коллекций.</p><p>Метод&nbsp;<code>RuleForEach</code><br>Комбинация методов&nbsp;<code>RuleForEach</code>&nbsp;+&nbsp;<code>ChildRules<br></code>Комбинация методов&nbsp;<code>RuleFor</code>&nbsp;+&nbsp;<code>ForEach</code>  </p> <a href="https://habr.com/ru/articles/798933/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798933#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 15:06:24 GMT</pubDate>
+      <dc:creator><![CDATA[vludlss_develop]]></dc:creator>
+      
+      <category><![CDATA[fluentvalidation]]></category><category><![CDATA[.net]]></category><category><![CDATA[c#]]></category><category><![CDATA[валидации]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Итерируемся по enum'ам в C++]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798929/</guid>
+      <link>https://habr.com/ru/articles/798929/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798929</link>
+      <description><![CDATA[<p>В этой статье я хочу поделиться простым и очевидным трюком в C++, о котором, не смотря на его простоту и очевидность, как оказалось, не все знают.</p><p>Предположим, у вас есть <em>enum class</em>, и вы хотите пройтись по его элементам, то есть вызвать какую-то функцию для каждого из значений этого enum'а. Это может быть полезно, ну... как пример, если элементы enum'а представляют параметры (ключи для значений), которые вы можете получить от какой-нибудь сущности или сервиса, и вам нужно обработать их все сразу по-очереди, например, для сериализации или логирования.</p><p>В языке C# для этой задачи есть метод <code>Enum.GetValues(typeof(T))</code>, который возвращает коллекцию всех значений этого enum'а. В C++ такого метода нет, но мы можем попробовать реализовать что-то подобное.</p><p></p> <a href="https://habr.com/ru/articles/798929/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798929#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 15:00:55 GMT</pubDate>
+      <dc:creator><![CDATA[UranusExplorer]]></dc:creator>
+      
+      <category><![CDATA[c++]]></category><category><![CDATA[enum]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Zustand.js: современный, невесомый, производительный и очень гибкий state manager]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798923/</guid>
+      <link>https://habr.com/ru/articles/798923/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798923</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/893/abb/6e1/893abb6e195cbcd207e93aafaa1f2346.jpg" /><p>Zustand существует и развивается уже несколько лет, но многие разработчики до сих пор либо не знают о нем либо имеют не достаточно информации для того, что бы перейти к его использованию.</p><p>В статье я расскажу:</p><p>о простом интерфейсе Zustand</p><p>о его внутреннем устройстве</p><p>о производительности без усилий: 3 простых способа оптимизаций</p><p>о производительности на максималках: не всегда нужно использовать длинный цикл рендера React, чтобы достичь максимальной производительности - Zustand может быстрее!</p><p>о применении на практике: советы и рекомендации по интеграции Zustand в ваши проекты для достижения масштабируемости и удобства поддержки.</p><p>Начните активно использовать Zustand в своих проектах - вы будете приятно удивлены простотой и удобством работы с ним.</p> <a href="https://habr.com/ru/articles/798923/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798923#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 14:09:26 GMT</pubDate>
+      <dc:creator><![CDATA[Budarin]]></dc:creator>
+      
+      <category><![CDATA[javascript]]></category><category><![CDATA[react.js]]></category><category><![CDATA[state management]]></category><category><![CDATA[zustand]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Spring Security 6. Авторизация и аутентификация на основе Базы данных]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798921/</guid>
+      <link>https://habr.com/ru/articles/798921/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798921</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/d26/3c0/53a/d263c053a859cf5365731a30150e80de.png" /><p>Привет. Меня зовут Кирилл, я Java-разработчик. Несмотря на то, что уже год я работаю в компании, по прежнему стараюсь находить время для собственных проектов, с помощью которых осваиваю интересующие меня технологии и подходы. Именно на таком проекте я решил разобраться, как работает авторизация и аутентификация на основе базы данных в Spring Security 6. Изменений, по сравнению с предыдущими версиями немало. Примеры из документации не отвечают на все вопросы в полной мере, а материалов на русском языке по этой теме я, как ни старался, не нашел. Информацию собирал из разных иностранных источников по кусочкам. Теперь поделюсь с вами найденным.</p><p>Думаю, что большая часть читателей знают, что такое авторизация и аутентификация, а также чем они отличаются друг от друга. Но на случай, если статью будут читать ученики, грубо обобщу, что авторизация — это отсечение тех, кто не имеет в целом допуска к ресурсу. Аутентификация — распределение возможностей (прав, допусков ) для авторизованных пользователей. Аутентификация осуществляется на основе ролей зарегистрированного пользователя и других свойств, которых коснемся позже. </p><p>Основная проблема заключается в том, что с версии Spring Security 5.7.0 класс WebSecurityConfigurerAdapter признан устаревшим и в дальнейших версиях его использование невозможно. Большинство же существующих на данный момент гайдов опираются на наследование этого класса.</p><p>В своем материале я предложу вашему вниманию минимальный скелет сервиса с авторизацией и аутентификацией на основе базы данных, с нескольким эндпоинтами, допуски к которым регулируются ролями и уровнями доступа. Скелет будет по-настоящему минимальным, чтобы не перегружать читателя лишней информацией и логикой, при этом полностью познакомить с концепцией. В дальнейшем вы можете расширить этот скелет, добавив свою функциональность и приспособив под свои задачи. </p><p></p> <a href="https://habr.com/ru/articles/798921/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798921#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 14:00:51 GMT</pubDate>
+      <dc:creator><![CDATA[Foppa]]></dc:creator>
+      
+      <category><![CDATA[spring-boot]]></category><category><![CDATA[spring security]]></category><category><![CDATA[authorization]]></category><category><![CDATA[authentication]]></category><category><![CDATA[опыт работы]]></category><category><![CDATA[делюсь опытом]]></category><category><![CDATA[java]]></category><category><![CDATA[spring boot]]></category><category><![CDATA[spring framework]]></category><category><![CDATA[spring mvc]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[GTA Vice City на маршрутизаторе TP-Link TL-WDR4900: как удалось этого добиться и на чём ещё запускали игры]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ru_mts/articles/798781/</guid>
+      <link>https://habr.com/ru/companies/ru_mts/articles/798781/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798781</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/72c/434/74f/72c43474fa63ad2b4ffc28e1417508f8.jpg" /><p>На днях стало известно о том, что группа KittenLabs смогла запустить знакомую практически всем читателям Хабра игру GTA: Vice City на роутере TP-Link TL-WDR4900 с задействованием AMD Radeon HD 7470, подключённой в качестве eGPU. Да, и операционной системой для всего этого послужил Debian Linux. Подробности — под катом.</p><p></p> <a href="https://habr.com/ru/articles/798781/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798781#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 14:00:49 GMT</pubDate>
+      <dc:creator><![CDATA[divolko3 (МТС)]]></dc:creator>
+      
+      <category><![CDATA[игры]]></category><category><![CDATA[игры и консоли]]></category><category><![CDATA[гаджеты]]></category><category><![CDATA[софт]]></category><category><![CDATA[gta]]></category><category><![CDATA[vice city]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Войти в айти — советы от программиста по призванию]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798669/</guid>
+      <link>https://habr.com/ru/articles/798669/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798669</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/86f/a66/64c/86fa6664c65d15166dc447c680341f67.jpg" /><p><strong>Дисклеймер</strong>. Сначала хочу выразить свое личное отношение к тем, кого в индустрии порой презрительно называют "вайтишниками".  В середине 80-х мой отец из инженера переквалифицировался в рабочего-наладчика на заводе. Причина проста - платили банально больше (особенности тарифных ставок на советских предприятиях, ага). Поэтому, с таким семейным анамнезом, я крайне далек от мысли кидаться камнями в людей, решивших в 35-40 лет пойти в айтишники, потому что там "платят много". Наоборот, я крайне им симпатизирую. Данная статья как раз попытка облегчить такого рода переход и снизить риски.</p><p></p> <a href="https://habr.com/ru/articles/798669/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798669#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 13:56:53 GMT</pubDate>
+      <dc:creator><![CDATA[spirit1984]]></dc:creator>
+      
+      <category><![CDATA[вайтивайти]]></category><category><![CDATA[вайтишники]]></category><category><![CDATA[курсы]]></category><category><![CDATA[курсы программирования]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Разработка игр с использованием Go и библиотеки Ebiten]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798917/</guid>
+      <link>https://habr.com/ru/articles/798917/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798917</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/f33/43c/d4b/f3343cd4bd40f425e4740b2f7f519014.png" /><p>Go является мощным и эффективным языком программирования, который можно использовать для создания игр. В этой статье мы рассмотрим разработку простой игры с использованием языка Go и библиотеки Ebiten, предназначенной для создания 2D игр.</p> <a href="https://habr.com/ru/articles/798917/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798917#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 13:00:45 GMT</pubDate>
+      <dc:creator><![CDATA[pirov]]></dc:creator>
+      
+      <category><![CDATA[разработка игр]]></category><category><![CDATA[go]]></category><category><![CDATA[ebiten]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Как работает код, который спит месяц]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/798437/</guid>
+      <link>https://habr.com/ru/companies/ruvds/articles/798437/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798437</link>
+      <description><![CDATA[<a href="https://habr.com/ru/companies/ruvds/articles/798437/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/ea/v5/p1/eav5p1u6m-c3rzq2szzmrajuoqa.png"></div></a><br>
+В <a href="https://habr.com/ru/companies/ruvds/articles/797137/">первой части</a> этого небольшого цикла статей мы говорили о том, что механизм устойчивого выполнения (durable execution) сохраняет состояние программы в журнале, а также о связанных с этим сложностях в случае обновлений служебного кода, ведущих к утрате журналом актуальности. Мы увидели, что ограничение времени выполнения обработчика существенно облегчает эту проблему. Но… не ведёт ли это к потере одного из наиболее интересных свойств устойчивого выполнения — возможности создавать бизнес-процессы, работающие с длительными паузами? В Restate мы считаем, что при использовании правильных примитивов можно ничего не потерять. <br>
+<br>
+Тем не менее, если вы любите писать код с долгими периодами ожидания, потому что он хорошо согласуется с вашей моделью мышления, то Restate поможет вам реализовать это в полной мере. Если же вы цените устойчивое выполнение, но скептично относитесь к долго выполняющимся обработчикам и проблемам с их версионированием, то для этого есть решение. Ниже описаны несколько способов получить те же свойства путём добавления в этот механизм устойчивого обмена сообщениями и состояния. <a href="https://habr.com/ru/articles/798437/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798437#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 13:00:44 GMT</pubDate>
+      <dc:creator><![CDATA[Bright_Translate (RUVDS.com)]]></dc:creator>
+      
+      <category>ruvds_перевод</category><category>restate</category><category>durable execution</category><category>устойчивое выполнение</category><category>rpc</category><category>temporal</category><category>cloud flare</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Создаем VR офис с Termidesk и Oculus]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/789462/</guid>
+      <link>https://habr.com/ru/articles/789462/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=789462</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/514/3df/498/5143df4989e365ce2cd9e21677947c8d.jpg" /><p>В поисках лучшей конфигурации для работы я решил попробовать VR Oculus Quest 3. </p><p>Статья будет построена вокруг моего опыта по настройке VR среды для работы. Я расскажу вам о мониторах с изменяемой диагональю, боли в глазах и контроле обстановки вокруг. </p><p></p> <a href="https://habr.com/ru/articles/789462/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=789462#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 12:44:24 GMT</pubDate>
+      <dc:creator><![CDATA[alixplisov]]></dc:creator>
+      
+      <category><![CDATA[Oculus Quest]]></category><category><![CDATA[Termidesk]]></category><category><![CDATA[VR]]></category><category><![CDATA[AR]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Переезд с Ubuntu 18.04 на 20.04 в подсистеме WSL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798911/</guid>
+      <link>https://habr.com/ru/articles/798911/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798911</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/87c/3ae/08e/87c3ae08eefc7c43be6811955d45c65c.png" /><p>Всем привет!</p><p>Если Вы читаете эту статью, то, скорее всего, столкнулись с проблемами в работе с личными или рабочими проектами, вызванными недавним обновлением VS Code до версии 1.86. И вроде новая версия нужна, и страшно потерять все данные. </p><p></p> <a href="https://habr.com/ru/articles/798911/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798911#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 12:00:39 GMT</pubDate>
+      <dc:creator><![CDATA[catch-a-chalk]]></dc:creator>
+      
+      <category><![CDATA[GNU Nano]]></category><category><![CDATA[Ubuntu-18.04]]></category><category><![CDATA[Ubuntu-20.04]]></category><category><![CDATA[обновление]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Почему Facebook* не использует Git]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798881/</guid>
+      <link>https://habr.com/ru/articles/798881/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798881</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/1c5/b3d/d43/1c5b3dd4325e02922d1bf07b89b5a204.png" /><p>Я работаю над созданием Graphite, источником вдохновения для которого стал внутренний инструментарий Facebook. Когда я решил создать стартап с друзьями, то никогда раньше не слышал о Mercurial, хотя всегда страстно любил инструменты разработчика. Мой предыдущий опыт разработки включал в себя личные проекты, домашнюю работу в колледже, разработку для iOS в Google и развитие инфраструктуры в Airbnb. На протяжении всей моей карьеры использование git было таким же естественным, как воздух. Он настолько популярен, что лично я считал его единственным подходящим инструментом для создания изменений в коде и управления ими.</p><p><em>Забавно, что специалист по Mercurial Грегори </em><code>Gregory Szorc</code><em>&nbsp;работал рядом со мной в Airbnb, хотя я знал его только как приятного коллегу, но не представлял, что он контрибьютор.</em></p><p>В 2021 году мои коллеги по команде Томас и Ник раскрыли мне глаза. Они пришли из Facebook и, к моему удивлению, едва знали Git. Зато они имели глубокое понимание паттернов Mercurial и рабочего процесса Facebook на основе «многослойных diff» (stacked diff). Со временем они убедили меня в полезности этого паттерна и мы развернули направление развития компании, чтобы реализовать многослойные diff для разработчиков GitHub.</p><p>Но пост посвящён не нашему стартапу. Он о важном вопросе, не дававшем мне покоя последние три года. Почему фейсбукеры не пользуются Git? Зачем они выбрали Mercurial и создали на его основе собственные рабочие процессы? Я знаю что Google не пользуется Git, но это логично, культура разработки Google возникла на пять лет раньше Git. Facebook же был основан примерно в то же время, что и создан Git, около 2004 года, и ко времени, когда Facebook начал серьёзно выбирать инструментарий для управления исходниками, Git был старше и популярнее Mercurial. Так почему же Facebook не использует Git?</p><p></p> <a href="https://habr.com/ru/articles/798881/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798881#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 11:16:21 GMT</pubDate>
+      <dc:creator><![CDATA[PatientZero]]></dc:creator>
+      
+      <category>системы управления версиями</category><category>facebook</category><category>meta</category><category>vcs</category><category>source control</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Многокритериальная оптимизация для ранжирования и отбора торговых систем]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798905/</guid>
+      <link>https://habr.com/ru/articles/798905/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798905</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/dd4/144/ebf/dd4144ebf63ea795293117543a3c0299.jpg" /><p><strong>Отбор торговых систем: как выбрать лучшие из произвольного количества имеющихся</strong></p><p>В статье пойдёт речь о механизме отбора или расчёте коэффициента для ранжирования пула торговых систем. Мы рассмотрим один из способов, используя который можно определить лучшие варианты.</p><p>Важно понимать, что результаты анализа эффективности и результативности торговых систем могут быть сложными и неоднозначными. Например, торговая система с высокой прибылью может иметь большую просадку, но также она может генерировать стабильный доход на протяжении длительного времени. Поэтому при выборе торговой системы важно учитывать весь набор характеристик и показателей. В этом и заключается проблематика, затрагиваемая в статье.</p> <a href="https://habr.com/ru/articles/798905/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798905#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 11:00:34 GMT</pubDate>
+      <dc:creator><![CDATA[bascomo]]></dc:creator>
+      
+      <category><![CDATA[trading]]></category><category><![CDATA[торговые роботы]]></category><category><![CDATA[торговые стратегии]]></category><category><![CDATA[торговля на бирже]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Разделение задач резервного копирования и удаления устаревших копий в PostgreSQL при помощи pgBackRest]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/otus/articles/798717/</guid>
+      <link>https://habr.com/ru/companies/otus/articles/798717/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798717</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/4d0/550/6eb/4d05506eb388fbbc655609d980ca1191.jpg" /><p>Управление резервными копиями является одним из ключевых моментов в любой стратегии администрирования баз данных. Это гарантирует, что в случае сбоя или потери данных вы можете быстро восстановить всю информацию. pgBackRest — популярное решение для резервного копирования и восстановления PostgreSQL, которое предоставляет множество функций для управления резервными копиями. Тем не менее, по умолчанию стандартная конфигурация pgBackRest часто объединяет операции резервного копирования и удаления устаревших копий в одном процессе.&nbsp;</p> <a href="https://habr.com/ru/articles/798717/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798717#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 10:47:32 GMT</pubDate>
+      <dc:creator><![CDATA[MaxRokatansky (OTUS)]]></dc:creator>
+      
+      <category>PostgreSQL</category><category>pgBackRest</category><category>резервное копирование</category><category>Patroni</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Самые горячие новости инфобеза за февраль 2024 года]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/tomhunter/articles/798895/</guid>
+      <link>https://habr.com/ru/companies/tomhunter/articles/798895/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798895</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/16b/adf/65b/16badf65b0c48697facd022433ee420f.png" /><p>Всем привет! Последний зимний месяц отгремел, так что подводим его итоги. Главным событием, безусловно, стал масштабный перехват инфраструктуры LockBit, нанёсший группировке удар, от которого у неё немного шансов оправиться. BlackCat также наделала шуму в США, положив платёжную систему в здравоохранении, что вылилось в экзит-скам и уход группировки с рансомварь-сцены в начале марта. Помимо этого, февраль отметился редким зверем — масштабной утечкой внутренней кухни китайской ИБ-фирмы i-SOON, крупным взломом AnyDesk и парой громких киберпреступных имён в контексте их судебных дел. Об этом и других горячих ИБ- событиях самого холодного месяца года читайте под катом!</p> <a href="https://habr.com/ru/articles/798895/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798895#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 10:09:48 GMT</pubDate>
+      <dc:creator><![CDATA[TomHunter (T.Hunter)]]></dc:creator>
+      
+      <category><![CDATA[информационная безопасность]]></category><category><![CDATA[дайджест новостей иб]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Написание слоя API в приложении — это прошлый век! Встречайте универсальный прокси]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798887/</guid>
+      <link>https://habr.com/ru/articles/798887/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798887</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/ed3/e6e/e1c/ed3e6ee1c58cc84fdcd7288644ae9c96.jpg" /><p>Перестаньте писать, генерировать и переписывать API слой для каждого приложения - создайте универсальный прокси с TypeScript единый для множества приложений и обновляйте только типы при изменениях API на сервере!</p><p>Ваш API слой всегда будет оставаться минимальным в размерах и не увеличится ни на байт  с увеличением количества вызываемых методов! Это обеспечит стройность вашим бандлам и добавит удовольствие пользователю от быстрой загрузки вашего сайта</p> <a href="https://habr.com/ru/articles/798887/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798887#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 10:00:28 GMT</pubDate>
+      <dc:creator><![CDATA[Budarin]]></dc:creator>
+      
+      <category><![CDATA[web application]]></category><category><![CDATA[api]]></category><category><![CDATA[proxy object]]></category><category><![CDATA[typescript]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Платформа Rasa в действии: оценка работы виртуального ассистента с помощью конвейера данных диалогов и аналитики]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798879/</guid>
+      <link>https://habr.com/ru/articles/798879/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798879</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/98b/1c1/0a9/98b1c10a9a5c4a6637252547b4fc75d4.jpg" /><p>Вы создали ассистента, настроили намерения, запустили его — клиенты с ним взаимодействуют. Но как определить, что все прошло успешно? Как вообще измерить успех? По каким признакам вы оцениваете удовлетворенность клиентов или определяете, что ассистент работает так, как было задумано? Как понять, что именно необходимо оптимизировать, если он работает недостаточно эффективно?  </p><p></p> <a href="https://habr.com/ru/articles/798879/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798879#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 09:19:26 GMT</pubDate>
+      <dc:creator><![CDATA[camunar]]></dc:creator>
+      
+      <category>rasa</category><category>бот</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Обзор библиотеки FluentValidation. Часть 1. Первые шаги]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798877/</guid>
+      <link>https://habr.com/ru/articles/798877/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798877</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/576/9f8/fe9/5769f8fe9f73ab1715e2238b3052c9b9.png" /><p>Всем привет, меня зовут&nbsp;<strong>Влад</strong>, я начинаю серию статей по обзору библиотеки&nbsp;<strong>FluentValidation</strong>&nbsp;на русском языке. Источником информации является официальная дока. Не могу назвать это уроком или полноценным переводом, решил назвать это обзорами.</p><p></p> <a href="https://habr.com/ru/articles/798877/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798877#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 09:00:24 GMT</pubDate>
+      <dc:creator><![CDATA[vludlss_develop]]></dc:creator>
+      
+      <category><![CDATA[fluentvalidation]]></category><category><![CDATA[.net]]></category><category><![CDATA[c#]]></category><category><![CDATA[валидации]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Королева кода: как Грейс Хоппер сделала компьютеры доступнее]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/onlinepatent/articles/798795/</guid>
+      <link>https://habr.com/ru/companies/onlinepatent/articles/798795/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798795</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/869/414/cdf/869414cdf35f3117aa5d186f792b5516.png" /><p>Имя программистки Грейс Хоппер не на слуху, однако именно она сыграла ключевую роль в превращении компьютеров из недоступных вычислительных машин в удобные для пользователя инструменты. В кругах специалистов ее называют «невероятной Грейс», «бабушкой софта» и даже «королевой кода». Эти громкие звания Хоппер получила благодаря своей работе над первым компилятором, а также одним из первых языков программирования. Рассказываем о ее жизни и изобретениях.&nbsp;</p><p></p> <a href="https://habr.com/ru/articles/798795/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798795#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 09:00:22 GMT</pubDate>
+      <dc:creator><![CDATA[ko_ya (Онлайн Патент)]]></dc:creator>
+      
+      <category><![CDATA[компьютер]]></category><category><![CDATA[истрия]]></category><category><![CDATA[хоппер]]></category><category><![CDATA[программировние]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Эффект Ганна]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/797649/</guid>
+      <link>https://habr.com/ru/companies/ruvds/articles/797649/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=797649</link>
+      <description><![CDATA[<a href="https://habr.com/ru/companies/ruvds/articles/797649/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/ng/ix/cf/ngixcfriy4hmwe2wbcduuye3hlk.jpeg"></div></a><i><font color="#999999">Картинка <a href="https://www.freepik.com/free-ai-image/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus_49397003.htm#fromView=search&amp;page=2&amp;position=29&amp;uuid=ab9ff09e-1694-4569-b62e-e05663a9f395" rel="nofollow noopener noreferrer"> Benzoix, Freepik</a></font></i><br>
+<br>
+Среди физических эффектов особняком стоит один весьма интересный феномен, который получил название эффекта Ганна, по имени английского физика Джона Ганна, открывшего его в 1963 году…<br>
+<br>
+Суть его заключается в том, что если к однородному образцу из специального материала с имеющимися электрическими контактами приложить электрическое поле, величина которого превышает некоторое пороговое значение (эффект наблюдался первооткрывателем на кристаллах арсенида галлия и фосфида индия; для первого напряжённость электрического поля должна составлять 3 кВ/см, а для второго — 6 кВ/см), то во внешней электрической цепи начинают наблюдаться колебания тока. Причём было обнаружено, что период этих колебаний примерно равен времени полёта электронов от катода к аноду, а частота колебаний была достаточно большой и находилась в области СВЧ-диапазона: <math><img src="https://habrastorage.org/getpro/habr/formulas/ae4/ed5/6cf/ae4ed56cf915c317e1db264d69ef5224.svg" alt="$Т_{0}\approx L/u_{g}$" data-tex="inline"></math>, где: <math><img src="https://habrastorage.org/getpro/habr/formulas/ffe/7fb/ad9/ffe7fbad9e8131a5d99bf8feffe52f62.svg" alt="$L$" data-tex="inline"></math> — длина экземпляра; <math><img src="https://habrastorage.org/getpro/habr/formulas/2ad/25f/0ea/2ad25f0ea0e0a4a86940f2a4e27e5d03.svg" alt="$u_{g}$" data-tex="inline"></math> — скорость дрейфа электронов. <a href="https://habr.com/ru/articles/797649/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=797649#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 09:00:20 GMT</pubDate>
+      <dc:creator><![CDATA[DAN_SEA (RUVDS.com)]]></dc:creator>
+      
+      <category><![CDATA[ruvds_статьи]]></category><category><![CDATA[эффект ганна]]></category><category><![CDATA[арсенид галлия]]></category><category><![CDATA[ток]]></category><category><![CDATA[полупроводники]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[SD-Access без DNAC и ISE]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/797719/</guid>
+      <link>https://habr.com/ru/articles/797719/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=797719</link>
+      <description><![CDATA[<p>В 2019&nbsp;мы закупили комплект оборудования и&nbsp;лицензий для&nbsp;развертывания Cisco SD‑Access на&nbsp;несколько тысяч портов для&nbsp;замены нашей старой инфраструктуры и одновременного внедрения многих технологических преимуществ, которые предоставляет SD‑Access. Но после внедрения мы оказались без поддержки и возможности продлевать лицензии....</p><p></p> <a href="https://habr.com/ru/articles/797719/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=797719#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 08:01:37 GMT</pubDate>
+      <dc:creator><![CDATA[ar4w]]></dc:creator>
+      
+      <category><![CDATA[sd-access]]></category><category><![CDATA[dnac]]></category><category><![CDATA[ise]]></category><category><![CDATA[trustsec]]></category><category><![CDATA[sxp]]></category><category><![CDATA[импортозамещение]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Программа поиска эллипсов и определения их параметров МНК]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798869/</guid>
+      <link>https://habr.com/ru/articles/798869/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798869</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/c1b/9ac/aab/c1b9acaabf43d4e1e46dac5ae691753e.JPG" /><p>Привет! Я новичок на Харбре. Меня зацепила статья от 2011 года: «Детектирование эллиптических частиц на микрофотографии. Новый алгоритм поиска эллипсов на изображении». <a href="https://habr.com/ru/articles/135332/" rel="noopener noreferrer nofollow">https://habr.com/ru/articles/135332/</a>. </p><p>Вот комментарий к этой статье (Mrrl 27 дек 2011 в 07:49): «А почему эллипс строится по 6 точкам? Уравнение ведь однородное. Для кривой второго порядка всегда хватало 5 точек, коэффициенты ищутся решением однородного уравнения. В качестве шестой точки есть смысл добавить точку, которая эллипсу заведомо не принадлежит, и записать для нее F(x,y)=1 — тогда придется решать более привычное неоднородное уравнение. А если действительно нужен точный результат, то нужно брать все точки, лежащие вдоль линии приблизительно найденного эллипса (лучше бы с весами), и подать их на вход метода наименьших квадратов. Он позволит определить параметры с точностью до десятых долей пикселя (а то и точнее)». </p><p>Мной разработана программа на Матлаб в которой реализована схема, предложенная Mrrl. </p><p>Краткое описание программы и результатов ее применения к конкретному примеру из цитированной выше статьи.</p> <a href="https://habr.com/ru/articles/798869/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798869#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 08:00:14 GMT</pubDate>
+      <dc:creator><![CDATA[eshono]]></dc:creator>
+      
+      <category><![CDATA[эллипс]]></category><category><![CDATA[алгоритм]]></category><category><![CDATA[обнаружение]]></category><category><![CDATA[компьютерное зрение]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Долговременная память и афантазия]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ua-hosting/articles/798707/</guid>
+      <link>https://habr.com/ru/companies/ua-hosting/articles/798707/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798707</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/yo/fx/38/yofx38xasfctbo275pyhi80l8ue.jpeg"><br>
+<br>
+Память человека является весьма необычным механизмом, понимание которого в полной мере пока еще нет. Мы можем не помнить, что мы делали пять минут назад, но при этом в деталях помнить события десятилетней давности. Автобиографические воспоминания, которые касаются лично нас, формируются в связке и визуальными образами. Способность создавать визуальные образы воспоминаний помогает нам повторно переживать те или иные события из прошлого, т. е. вспоминать их более детализировано. Однако есть люди, которые не способны создавать визуальные образа. Данное отклонение от нормы называется афантазией. Ученые из Университетской больницы Бонна (Германия) провели исследование, в котором установили, нарушения в каких именно областях мозга приводит к афантазии. Какие опыты провели ученые, какие они дали результаты, и как новые данные могут быть использованы на практике? Ответы на эти вопросы мы найдем в докладе ученых. <a href="https://habr.com/ru/articles/798707/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798707#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 08:00:13 GMT</pubDate>
+      <dc:creator><![CDATA[Dmytro_Kikot (ua-hosting.company)]]></dc:creator>
+      
+      <category><![CDATA[мозг]]></category><category><![CDATA[память]]></category><category><![CDATA[визуализация]]></category><category><![CDATA[воспоминания]]></category><category><![CDATA[зрительная кора]]></category><category><![CDATA[воображение]]></category><category><![CDATA[цнс]]></category><category><![CDATA[афантазия]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Российские СХД, очень много платформ для ML, новые GPU и коммутаторы. Дайджест серверного железа за февраль]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/772544/</guid>
+      <link>https://habr.com/ru/companies/selectel/articles/772544/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=772544</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/kd/i8/oi/kdi8oit3jmk8gksxei-vqqh8tt8.png"></div><br>
+Привет! Меня зовут Сергей, в этой статье я расскажу о новинках в мире железа за прошедший месяц. Многие из них показали на выставке Mobile World Congress 2024 в Барселоне. Бонус — обзор нового оборудования российских вендоров. Уже присматриваете железо для своих <a href="https://selectel.ru/services/dedicated/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=dedicated_article_hardwaredigest02_070324_content" rel="nofollow noopener noreferrer">серверов</a>? Подробности под катом! <a href="https://habr.com/ru/articles/772544/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=772544#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 08:00:03 GMT</pubDate>
+      <dc:creator><![CDATA[skovalev (Selectel)]]></dc:creator>
+      
+      <category><![CDATA[selectel]]></category><category><![CDATA[схд]]></category><category><![CDATA[серверы]]></category><category><![CDATA[дайджест]]></category><category><![CDATA[железо]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Создание своего UEFI загрузчика]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798587/</guid>
+      <link>https://habr.com/ru/articles/798587/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798587</link>
+      <description><![CDATA[<p>Привет Хабр! Мне 16 лет, я студент, учусь на первом курсе колледжа на программиста. Начал увлекаться низкоуровневым программированием на Ассемблере и C/C++</p><p>Я заметил что на Хабре есть множество статей о написании своих простых "загрузчиков" для BIOS-MBR, которые выводят на экран "Hello World!". И при этом практически нет ни одной статьи о создании того же самого, но только для UEFI, хотя будущее именно за ним, ведь BIOS уже давно устарел! Это я и хочу исправить в этой статье.</p><p></p> <a href="https://habr.com/ru/articles/798587/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798587#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:37:28 GMT</pubDate>
+      <dc:creator><![CDATA[Truzme]]></dc:creator>
+      
+      <category><![CDATA[загрузчик]]></category><category><![CDATA[uefi]]></category><category><![CDATA[efi]]></category><category><![CDATA[gdt]]></category><category><![CDATA[guid]]></category><category><![CDATA[hello world]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Анатомия эффективного интервью, часть вторая]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/raft/articles/798861/</guid>
+      <link>https://habr.com/ru/companies/raft/articles/798861/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798861</link>
+      <description><![CDATA[<p>Последняя и самая драматичная часть серии.</p><p>Первая часть <a href="https://habr.com/ru/companies/raft/articles/797723/">тут</a>.</p><p>Как ни удивительно для технической части, но здесь много психологии. Давайте начнем с очевидного.</p><p></p> <a href="https://habr.com/ru/articles/798861/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798861#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:31:17 GMT</pubDate>
+      <dc:creator><![CDATA[Squirrelfm (Raft)]]></dc:creator>
+      
+      <category><![CDATA[интервью]]></category><category><![CDATA[интервьюирование]]></category><category><![CDATA[interview]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[SwiftUI уроки (часть 3)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798857/</guid>
+      <link>https://habr.com/ru/articles/798857/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798857</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/740/918/563/7409185639980e754925c8836b143c8b.png" /><p><a href="https://habr.com/ru/articles/797381/" rel="noopener noreferrer nofollow">Ссылка на 2ю часть</a></p><p><strong>Создаем UI с помощью стеков</strong></p><p>Стеки в SUI похожи на стеквью в UIKit. Если комбинировать горизонтальные и вертикальные стеки можно создать комплексный UI для приложения, который будет отлично адаптировать под различные размеры экранов и типы устройств. В UIKit основное средство создания UI - это auto layout который применяется для правильного отображения вьюшек на экране. Зачастую для начинающих разработчиков автолейаут кажется чем-то очень сложным как для применения так и обучения, так что если вы уже переходите на SUI - есть хорошие новости, автолэйаут вам больше не потребуется. Вы будете оперировать такими компонентами как VStack, HStack, ZStack.</p><p></p> <a href="https://habr.com/ru/articles/798857/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798857#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:23:41 GMT</pubDate>
+      <dc:creator><![CDATA[batrade1000]]></dc:creator>
+      
+      <category><![CDATA[swift]]></category><category><![CDATA[swiftui]]></category><category><![CDATA[swift  разработка]]></category><category><![CDATA[ios разработка]]></category><category><![CDATA[ios development]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] «Уэбб» разглядел галактику, бывшую удивительно активной, когда Вселенной было всего 430 млн лет]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798835/</guid>
+      <link>https://habr.com/ru/articles/798835/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798835</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/631/5cf/636/6315cf636f3a59d1781047c8d68f354f.jpg" /><p>Раскрытие тайн ранней Вселенной — одна из основных задач «Уэбба». Поиск и изучение первых галактик — важная часть его работы. Одна из первых галактик Вселенной обладает необычайной яркостью, и исследователи задались вопросом, почему. Похоже, что «Уэбб» нашёл ответ.</p><p>Галактика, о которой идёт речь, называется GN-z11, и она существовала, когда Вселенной было менее полумиллиарда лет. Впервые "Хаббл" заметил её в 2016 году при помощи космического телескопа "Спитцер". На тот момент это была самая далёкая и древняя галактика из когда-либо обнаруженных. В статье, сообщающей об открытии, авторы пишут: "GN-z11 — светящаяся и молодая, но при этом умеренно массивная, что предполагает быстрое накопление звёздной массы в прошлом".</p> <a href="https://habr.com/ru/articles/798835/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798835#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:09:24 GMT</pubDate>
+      <dc:creator><![CDATA[SLY_G]]></dc:creator>
+      
+      <category>уэбб</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Настройка беспроводных сетей на базе Cisco WLC + VMware EXSi (в Виртуальной среде) пособие для начинающих специалистов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798853/</guid>
+      <link>https://habr.com/ru/articles/798853/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798853</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/6c9/f13/6b8/6c9f136b85051863ab1555281592b0d8.jpg" /><p>С чего начинается любая беспроводная сеть, независимо от задачи маленького кафе с тремя точками или целого университета, где нужно дать доступ к сети исходя из разбросанности корпусов, а может крупного бизнеса, где важна безопасность и отказоустойчивость. Как и любая задача, требующая правильного решения, необходимо начинать с планирования! Так как ни один правильно работающий механизм не будет работать без проработанного плана. И так начнем из списка, что нам нужно чтобы построить работающую беспроводную сеть по пунктам рассмотрим мой вариант примера.</p> <a href="https://habr.com/ru/articles/798853/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798853#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:00:22 GMT</pubDate>
+      <dc:creator><![CDATA[redpba]]></dc:creator>
+      
+      <category><![CDATA[cisco]]></category><category><![CDATA[wi-fi]]></category><category><![CDATA[mash]]></category><category><![CDATA[cisco wlc]]></category><category><![CDATA[cisco wireless access points]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Из собирателей в фермеры 5 200 лет назад: необычная «карьера» человека из Виттрупа]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/ru_mts/articles/798775/</guid>
+      <link>https://habr.com/ru/companies/ru_mts/articles/798775/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798775</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/8df/b6f/565/8dfb6f565327f5250ce33ee2cc2a8681.jpg" /><p>В 1915 году недалеко от деревни Виттруп рабочие, занимавшиеся добычей торфа, обнаружили останки мужчины с проломленным черепом. Сразу было понятно, что человек умер очень давно, тысячи лет назад. Находка хранилась в одном из музеев Дании на протяжении ста лет в неизменном виде. И только недавно учёные провели исследование тела, чтобы узнать немного больше о жизни давно умершего человека. </p><p>Полученные результаты были <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297032">опубликованы</a> в журнале Plos One. Одним из интересных открытий стало то, что человек из Виттрупа вырос в прибрежном поселении среди охотников и собирателей, но затем стал фермером на территории современной Дании в период неолита. Соответственно, зигзаги судьбы случались и с древними людьми, которые, к слову, немало путешествовали. Не все, конечно, но многие. Подробности — под катом. </p><p></p> <a href="https://habr.com/ru/articles/798775/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798775#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 07:00:21 GMT</pubDate>
+      <dc:creator><![CDATA[divolko3 (МТС)]]></dc:creator>
+      
+      <category><![CDATA[история]]></category><category><![CDATA[научно-популярное]]></category><category><![CDATA[предки]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Звуковые файлы в Lua]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798851/</guid>
+      <link>https://habr.com/ru/articles/798851/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798851</link>
+      <description><![CDATA[<p>Рассказываю как просто сделать функцию для воспроизведения &nbsp;звука в различных форматах в скриптах Lua.</p><p></p> <a href="https://habr.com/ru/articles/798851/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798851#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 06:36:02 GMT</pubDate>
+      <dc:creator><![CDATA[nikolz]]></dc:creator>
+      
+      <category><![CDATA[lua]]></category><category><![CDATA[mp3]]></category><category><![CDATA[wav]]></category><category><![CDATA[windows]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Настоящий игровой роутер]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/timeweb/articles/798747/</guid>
+      <link>https://habr.com/ru/companies/timeweb/articles/798747/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798747</link>
+      <description><![CDATA[Гоняем GTA: Vice City на беспроводном роутере TP-Link TL-WDR4900.<br>
+<br>
+<div class="oembed"><iframe allowfullscreen id="65e9b59fee68229db6f96cce" src="https://embedd.srv.habr.com/iframe/65e9b59fee68229db6f96cce"></iframe></div> <a href="https://habr.com/ru/articles/798747/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798747#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 06:05:16 GMT</pubDate>
+      <dc:creator><![CDATA[GeeksCat (Timeweb Cloud)]]></dc:creator>
+      
+      <category>timeweb_статьи_перевод</category><category>GTA: Vice City</category><category>роутер</category><category>TP-Link</category><category>игры</category><category>MIPS</category><category>ARM</category><category>lunix</category><category>PowerPC</category><category>PCIe</category><category>BAR</category><category>VRAM</category><category>Arm64</category><category>miniPCIe</category>
+    </item>
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Joomla на FOSDEM 2024: запуск Альянса открытых веб-сайтов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798295/</guid>
+      <link>https://habr.com/ru/articles/798295/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798295</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/9b3/7ec/1a5/9b37ec1a546addb3a84c8548280c1bf6.png" /><p>FOSDEM 2024 - масштабная конференция разработчиков ПО с открытым исходным кодом, насчитывающая тысячи участников и более шестидесяти конференц-залов. Президент Joomla Crystal Dionysopoulos присутствовала на этом мероприятии. Представители популярных платформ Joomla, Drupal, WordPress и Typo3 объединили усилия и запустили Альянс открытых веб-сайтов.</p><p></p> <a href="https://habr.com/ru/articles/798295/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798295#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 06:05:14 GMT</pubDate>
+      <dc:creator><![CDATA[Sulpher]]></dc:creator>
+      
+      <category>joomla</category><category>wordpress</category><category>typo3</category><category>drupal</category><category>fosdem</category><category>fosdem2024</category><category>cyber resilence act</category><category>cra</category><category>open source</category><category>gdpr</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[await anywhere, взгляд на третью сторону медали: sync vs async vs …]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/tochka/articles/798577/</guid>
+      <link>https://habr.com/ru/companies/tochka/articles/798577/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798577</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/3bc/04a/d15/3bc04ad157321730c0a9904786a18d1f.png" /><p>Пятница. Вечер. Алерт. Прод и я. Приглашаю вместе со мной помочь проду пережить выходные, а может быть и несколько лет. Ведь всего за одну пятницу крупный проект получил право жить и развиваться, а не лёг под нож «рефакторинга».</p><p></p> <a href="https://habr.com/ru/articles/798577/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798577#habracut">Узнать? Да!</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 04:58:54 GMT</pubDate>
+      <dc:creator><![CDATA[spumer (Точка)]]></dc:creator>
+      
+      <category><![CDATA[python]]></category><category><![CDATA[asyncio]]></category><category><![CDATA[gevent]]></category><category><![CDATA[fastapi]]></category><category><![CDATA[django]]></category><category><![CDATA[threads]]></category><category><![CDATA[greenlet]]></category><category><![CDATA[awesome]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Android-приложение на Compose с нуля: Часть 1 (Прототипирование)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798755/</guid>
+      <link>https://habr.com/ru/articles/798755/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798755</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/d55/2c1/c04/d552c1c04532f675c6028313ddd4d5be.png" /><p>В цикле статей рассмотрим разработку Android-приложения с использованием современной библиотеки для создания UI, а именно Jetpack Compose. Минимум "воды", максимум полезной информации.</p> <a href="https://habr.com/ru/articles/798755/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798755#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 04:51:00 GMT</pubDate>
+      <dc:creator><![CDATA[alekseyHunter]]></dc:creator>
+      
+      <category><![CDATA[jetpack compose]]></category><category><![CDATA[jetpack]]></category><category><![CDATA[compose]]></category><category><![CDATA[kotlin]]></category><category><![CDATA[android]]></category><category><![CDATA[tutorial]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[AMD решила пойти по пути Nvidia и выпустила урезанный ИИ-чип. Но что-то пошло не так]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/798839/</guid>
+      <link>https://habr.com/ru/companies/selectel/articles/798839/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798839</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://www.amd.com/content/dam/amd/en/images/pr-feed/1213366.jpg"></div><br>
+Не так давно <a href="https://habr.com/ru/companies/selectel/articles/752276/">мы писали о том</a>, что Китай не может покупать ускорители A100 и H100 от Nvidia, просто потому, что они попали под экспортные ограничения. Но американская корпорация вовремя подсуетилась и выпустила урезанные версии этих чипов, Nvidia ранее выпустила искусственно урезанные версии этих систем, А800 и Н800. Сделали это для обхода экспортных ограничений. <br>
+<br>
+В 2024 году аналогичным образом решила поступить и AMD, тоже, видимо, с целью заполучить определенную часть рынка сбыта в Китае. Чип разработали и произвели, но сейчас возникли определенного рода затруднения — GPU <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/amds-custom-instinct-mi309-gpu-for-china-fails-export-license-test-from-us-government" rel="nofollow noopener noreferrer">оказался слишком быстрым</a> для экспорта в Китай. Подробности — под катом. <br> <a href="https://habr.com/ru/articles/798839/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798839#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 08 Mar 2024 01:11:24 GMT</pubDate>
+      <dc:creator><![CDATA[DRoman0v (Selectel)]]></dc:creator>
+      
+      <category><![CDATA[чипы]]></category><category><![CDATA[amd]]></category><category><![CDATA[китай]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Непреодолимое желание копнуть поглубже (Cisco WLC)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798821/</guid>
+      <link>https://habr.com/ru/articles/798821/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798821</link>
+      <description><![CDATA[<p>Работая работу на&nbsp;работе хочется иногда оживить обстановку и заодно узнать что‑то новое. Возьмем например миграцию беспроводной сети на&nbsp;контроллере Cisco WLC работающего на&nbsp;AireOS на&nbsp;новый Catalyst 9800&nbsp;на&nbsp;IOS‑XE. </p><p></p> <a href="https://habr.com/ru/articles/798821/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798821#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 07 Mar 2024 19:33:09 GMT</pubDate>
+      <dc:creator><![CDATA[sekuzmin]]></dc:creator>
+      
+      <category><![CDATA[Cisco]]></category><category><![CDATA[WLC]]></category><category><![CDATA[PBKDF2]]></category><category><![CDATA[AES-CBC]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Что внутри игрового ноутбука Maibenben X639? Разборка мощной модели с RTX 4080 и Intel i9-13900HX]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798307/</guid>
+      <link>https://habr.com/ru/articles/798307/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798307</link>
+      <description><![CDATA[Удалось «пощупать» мощный игровой ноутбук от Maibenben, предназначенный для работы с внешней системой жидкостного охлаждения. Помимо 24-ядерного Core i9-13900HX и дискретной видеокарты, ноутбук оснащён приличным 2К-экраном (240 Гц), современными интерфейсами и подсветкой клавиатуры/корпуса. В обзоре будут тесты и разборка.<br>
+<br>
+<img src="https://habrastorage.org/webt/ur/sa/qc/ursaqcjwcch24buhw_qsaqaxgxq.jpeg"><br> <a href="https://habr.com/ru/articles/798307/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798307#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 07 Mar 2024 18:05:24 GMT</pubDate>
+      <dc:creator><![CDATA[Lexus08]]></dc:creator>
+      
+      <category><![CDATA[Maibenben]]></category><category><![CDATA[Maibenben X639]]></category><category><![CDATA[ноутбук]]></category><category><![CDATA[обзор]]></category><category><![CDATA[обзор ноутбука]]></category><category><![CDATA[обзор Maibenben]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Работа со временем и датой в C# с применением библиотеки Humanizer]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/otus/articles/798715/</guid>
+      <link>https://habr.com/ru/companies/otus/articles/798715/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798715</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/c85/632/a99/c85632a991c0968fbeb7687735a1a6f4.png" /><p>Цель этой статьи — показать вам, как использовать Humanizer, чтобы вывести работу со временем и датой в ваших C#-проектах на новый уровень. Я расскажу о том, как преобразовать объекты <code>DateTime</code> и <code>TimeSpan</code> в удобный для восприятия человеком вид, как настраивать параметры гуманизации и как объединять гуманизацию строк со временеме/датой. Мы также рассмотрим некоторые реальные сценарии использования и примеры того, как Humanizer может улучшить пользовательский опыт в отношении времени и даты.</p><p></p> <a href="https://habr.com/ru/articles/798715/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798715#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 07 Mar 2024 17:18:27 GMT</pubDate>
+      <dc:creator><![CDATA[MaxRokatansky (OTUS)]]></dc:creator>
+      
+      <category>c#</category><category>Humanizer</category><category>datetime</category><category>базы данных</category>
+    </item>
+
+
+      <item>
+      <title><![CDATA[Как за один pet-проект получить два диплома]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/articles/798801/</guid>
+      <link>https://habr.com/ru/articles/798801/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798801</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/a12/d39/3f5/a12d393f5e7174fdfbec7273b7aca5a8.jpg" /><p>Все же знают серию компьютерных футбольных симуляторов FIFA? Раньше я много играл в эту игру. Кто-то скажет, что это бесполезная трата времени, но я с этим не согласен. Эта игра вдохновила меня на разработку pet-проекта, который стал моим бакалаврским дипломом.</p><p>Во время игры в FIFA пользователь видит небольшую карту с местоположением игроков и мяча на поле, данный элемент интерфейса является очень полезной фичей, без которой невозможно представить полноценный игровой процесс. Мне показалось, что данную карту было бы неплохо перенести в реальный мир, используя видеозапись матча и нейросеть.&nbsp;</p> <a href="https://habr.com/ru/articles/798801/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=798801#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 07 Mar 2024 15:30:19 GMT</pubDate>
+      <dc:creator><![CDATA[vgubaydulin99]]></dc:creator>
+      
+      <category><![CDATA[нейросети]]></category><category><![CDATA[разработка]]></category><category><![CDATA[pet-project]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>
