@@ -2,7 +2,7 @@ import csv
 import json
 import yaml
 import xml.etree.ElementTree as ET
-from lxml import etree
+# from lxml import etree
 
 # CSV
 csv.register_dialect('my_dialect', delimiter=',', quoting=csv.QUOTE_ALL)
